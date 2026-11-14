@@ -1,0 +1,56 @@
+﻿/* ByteGuard Professional UI */
+div[data-testid="stAppViewContainer"] {
+    background-color: #f4f6f9;
+}
+/* Center main titles */
+h1, h2 {
+    color: #1e3a5f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h3 {
+    color: #1e3a5f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Subtitle text alignment */
+.stMarkdown p {
+    text-align: center;
+}
+/* Specific alignment for left-aligned content */
+.left-align p {
+    text-align: left;
+}
+/* Tab Spacing and Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 25px; /* Increased gap */
+    justify-content: center; /* Center the tabs */
+}
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    font-weight: 600;
+    border-radius: 6px 6px 0px 0px; /* Slightly rounder */
+    padding: 10px 25px; /* Increased padding */
+    background-color: #ffffff;
+    border: 1px solid #e0e6ed;
+    border-bottom: none;
+    transition: background-color 0.3s ease;
+}
+.stTabs [aria-selected="true"] {
+    background-color: #1e3a5f;
+    color: #ffffff !important;
+}
+/* Metric Container */
+.metric-container {
+    background-color: #ffffff;
+    padding: 20px; /* Increased padding */
+    border-radius: 8px;
+    border-left: 5px solid #1e3a5f;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Stronger shadow */
+    margin-top: 20px;
+}
+/* Align Image upload and results */
+[data-testid="column"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content to top */
+}
