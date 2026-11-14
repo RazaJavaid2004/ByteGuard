@@ -1,0 +1,17 @@
+﻿# Virtual Environment & Cache
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dataset & Heavy Model Checkpoints (Keep structure, ignore raw image bloat)
+data/raw/*
+data/splits/*
+!data/raw/.gitkeep
+!data/splits/.gitkeep
+*.zip
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
