@@ -1,4 +1,4 @@
-# 🛡️ ByteGuard: Automated Malware Family Multi-Classification Pipeline
+# 🛡️ ByteGuard: Automated Malware Family Multi-Classification Pipeline 
 
 > **Transforming Cybersecurity Threat Triage through Computer Vision and Machine Learning**
 
